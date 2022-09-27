@@ -61,7 +61,10 @@ public class JwsJndiExample extends HttpServlet {
 			e.printStackTrace();
 		} catch (SQLException e) {
 			e.printStackTrace();
-		}finally{
+		} catch (Error e){
+			e.printStackTrace();
+		}
+		finally{
 			try {
 				rs.close();
 				stmt.close();
