@@ -5,5 +5,5 @@ CREATE TABLE `Users` (
     `name` varchar(45) NOT NULL,
     `password` varchar(45) NOT NULL,
     `email` varchar(45) NOT NULL,
-    PRIMARY KEY (`user_id`)
+    PRIMARY KEY (`empid`)
 );
