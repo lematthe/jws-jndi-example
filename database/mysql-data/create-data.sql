@@ -1,4 +1,4 @@
-use userdb;
+use usersdb;
 
 CREATE TABLE `Users` (
     `empid` int(11) NOT NULL AUTO_INCREMENT,
